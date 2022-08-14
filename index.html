@@ -1,0 +1,156 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>Semantic tags in HTML5</title>
+
+		<link rel="stylesheet" href="dist/reset.css">
+		<link rel="stylesheet" href="dist/reveal.css">
+		<link rel="stylesheet" href="dist/theme/black.css">
+
+		<!-- Theme used for syntax highlighted code -->
+		<link rel="stylesheet" href="plugin/highlight/monokai.css">
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section>
+					<h2>Semantic tags in HTML5</h2>
+				  <br>
+					<div>
+						Sergey Kornienko<br>
+					  <span>RS School, JS/FE course 2022Q1</span>
+				  </div>
+				</section>
+				<section>
+					<h4>Agenda</h4>
+					<ul>
+						<li>Semantic Tags? What's the problem?
+							<ul>
+								<li>Incorrect understanding/implementations</li>
+								<li>History and definitions</li>
+								<li>The True meaning</li>
+							</ul>
+
+						</li>
+						<li>Semantic Tags correct usage
+							<ul>
+								<li>building an Object with The Tags</li>
+								<li>header/footer/article example</li>
+								<li>the benefits of correct implementations</li>
+							</ul>
+						</li>
+						<li>Conclusions</li>
+						<li>Questions</li>
+					</ul>
+
+				</section>
+
+				<section>
+					<h3> What's the problem?</h3>
+
+					<section>
+
+						<h4>Typical perception ... </h4>
+						<img clsss="imgu" src="./HTML5-bad.png" alt="">
+
+					</section>
+					<section>
+
+						<h4>... is completely Wrong!!</h4>
+						<img clsss="" src="./HTML5-bad2.png" alt="">
+
+					</section>
+
+
+					<section>
+						<h4>History and definitions</h4>
+						<ul>
+							<li>W3C ideas</li>
+							<li>Google separation - whatwg</li>
+							<li>Chrome launch , 2008</li>
+							<li>whatwg HTML5 standard 2014</li>
+							<li>W3C aknowlegment</li>
+							<li>Chrome SEO algorithms change, 2018</li>
+							<li>legacy issues</li>
+						</ul>
+					</section>
+
+					<section>
+						<h4>The True meaning - Content typification and relations between data pieces.</h4>
+						<p>		from a bunch of DIVs and Ps to the structured object data representation recognizable by parsing algorithms.</p>
+					</section>
+
+				</section>
+
+				<section>
+					<h3>Semantic Tags correct usage</h3>
+					<section>
+						<h4>building an Object with The Tags</h4>
+   					<img src="./obj.png" alt="">
+
+					</section>
+
+					<section>
+						<h4>header/footer/article/section/nav/aside examples - Blog</h4>
+						<img src="./blog.png" alt="">
+
+
+					</section>
+
+					<section>
+						<h4>header/footer/article/section/nav/aside examples - Store</h4>
+						<img src="./store.png" alt="">
+
+
+					</section>
+
+					<section>
+						<h4>the benefits of correct implementations</h4>
+						<ul>
+							<li>SEO, SEO, SEO</li>
+							<li>accessibility</li>
+							<li>data analytics</li>
+						</ul>
+						<img src="./exmpl1.png" alt="">
+					</section>
+
+				</section>
+
+				<section>
+					<h3>Conclusions</h3>
+					<ul>
+						<li>Reality - misunderstanding and misuse</li>
+						<li>correct implementation is critically imporant for SEO</li>
+						<li>Education is a key</li>
+					</ul>
+
+				</section>
+
+				<section>
+					<h1>Thank You!</h1>
+					<p>Any Questions?</p>
+
+				</section>
+			</div>
+		</div>
+
+		<script src="dist/reveal.js"></script>
+		<script src="plugin/notes/notes.js"></script>
+		<script src="plugin/markdown/markdown.js"></script>
+		<script src="plugin/highlight/highlight.js"></script>
+		<script>
+			// More info about initialization & config:
+			// - https://revealjs.com/initialization/
+			// - https://revealjs.com/config/
+			Reveal.initialize({
+				hash: true,
+
+				// Learn about plugins: https://revealjs.com/plugins/
+				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
+			});
+		</script>
+	</body>
+</html>
